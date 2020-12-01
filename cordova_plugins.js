@@ -49,6 +49,22 @@ module.exports = [
         "clobbers": [
             "Ionic.WebView"
         ]
+    },
+    {
+        "file": "plugins/havesource-cordova-plugin-push/www/push.js",
+        "id": "havesource-cordova-plugin-push.PushNotification",
+        "pluginId": "havesource-cordova-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
+    },
+    {
+        "file": "plugins/havesource-cordova-plugin-push/www/browser/push.js",
+        "id": "havesource-cordova-plugin-push.BrowserPush",
+        "pluginId": "havesource-cordova-plugin-push",
+        "clobbers": [
+            "PushNotification"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -59,7 +75,11 @@ module.exports.metadata =
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-ionic-webview": "4.2.1",
-    "cordova-plugin-ionic-keyboard": "2.2.0"
+    "cordova-plugin-ionic-keyboard": "2.2.0",
+    "havesource-cordova-plugin-push": "1.0.0",
+    "cordova-plugin-firebasex": "11.0.3",
+    "cordova-plugin-androidx": "3.0.0",
+    "cordova-plugin-androidx-adapter": "1.1.3"
 }
 // BOTTOM OF METADATA
 });
